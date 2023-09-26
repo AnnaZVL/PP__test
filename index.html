@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PP_main</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__left">
+                <a href="#" class="header__logo logo" aria-label="Перейти на главную страницу">
+                    <img class="logo__img" src="./images/logo.png" alt="Логотип">
+                </a>
+                <nav class="header__menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Возможности</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Планы</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__right">
+                <a href="#" class="header__link btn__resert btn__color enter">Войти</a>
+                <a href="#" class="header__link btn__resert btn__color registration">Регистрация</a>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__left">
+                    <div class="hero__content">
+                        <h1 class="hero__title">PulseWave</h1>
+                        <h3 class="hero__subtitle">Одно приложения для решения
+                            всех Ваших задач!</h3>
+                        <p class="hero__descr">Редактируйте и создавайте задачи вместе
+                            с PulseWave. Неограниченная функциональность, понятныйинтерфейс и большое количество
+                            возможностей помогут Вам улучшить Ваш рабочий процесс. </p>
+                        <a href="#" class="hero__link btn__resert btn__color registration">Регистрация</a>
+                    </div>
+                </div>
+                <div class="hero__right">
+                    <img class="hero__img" src="./images/blog-1.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="modal">
+            <div class="modal__wrapper">
+                <div class="modal__body">
+                    <button class="modal__btn-exit btn__resert">
+                        <img class="modal__btn-icon" src="./images/exit.svg" alt="">
+                    </button>
+                    <h2 class="modal__title">Вход</h2>
+                    <form action="#" class="modal__form form">
+                        <label for="" class="form__label">E-mail
+                            <input type="email" class="form__input" placeholder="Введите свой e-mail">
+                        </label>
+                        <label for="" class="form__label">Пароль
+                            <input type="password" class="form__input" placeholder="**********">
+                        </label>
+                        <button class="form__btn btn__resert btn__color" type="submit">Войти</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/scripn.js"></script>
+</body>
+
+</html>
